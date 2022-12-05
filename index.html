@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <h1 id="title">Survay Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label">name</label> <br> 
+      <input id="name" type="text" name="name" class="form-control" placeholder="Enter your name" required></input><br>
+      <label id="email-label">email</label> <br>
+      <input id="email" type="email" placeholder="Enter yor Email" pattern=".*@"  required></input> <br>
+      <label id="number-label">Age? (optional)</label> <br>
+      <input name="age" id="number" type="number" min="1" max="99"  required placeholder="Age">
+      <br><label id="check-box">What are your role?</label><br>
+      <select id="dropdown">
+        <option value="student">Student</option>
+        <option value="job">Full Time Job</option><br>
+      </select>
+      <p>Do you Like Microverse???</p>
+          <label>
+            <input name="radio" value="I love Microverse" type="radio" class="input-radio"checked/>I love Microverse</label>
+          <label>
+            <input name="radio" value="I don't know" type="radio" class="input-radio" />I don't know about it</label>
+      <br><label id="check-box">Are you agree?</label>
+      <br><input type="checkbox" value="yes">YES</input>
+      <br><input type="checkbox" value="no">NO</input>
+      <p> Enter you coments here! </p>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Write here"></textarea>
+      <br></brZ><button id="submit">Submit</button>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+  </body>
+</html>
